@@ -1,0 +1,5 @@
+<h1>Seu pedido foi processado com sucesso em <%= @elapsed %>ms!</h1>
+<a href="/">Voltar</a>
+<% @images.each do |image| %>
+  <%= image.to_html %>
+<% end %>
